@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /b 'd:\\Freelance Çalışmalarım\\QIE')",
+      "Bash(findstr:*)",
+      "Bash(Select-Object FullName, Length)",
+      "Bash(powershell:*)",
+      "Bash(dir:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(copy \"d:\\Freelance Çalışmalarım\\QIE\\contracts\\QiStakeFactoryABI.json\" \"d:\\Freelance Çalışmalarım\\QIE\\qistake\\src\\lib\\abis\"\" && copy \"d:Freelance ÇalışmalarımQIEcontractsQiStakePoolABI.json\" \"d:Freelance ÇalışmalarımQIEqistakesrclibabis\"\")",
+      "Bash(copy \"d:\\Freelance Çalışmalarım\\QIE\\QiStake_no_background_full_name.PNG\" \"d:\\Freelance Çalışmalarım\\QIE\\qistake\\public\\images\\logo-full.png\")",
+      "Bash(copy:*)",
+      "Bash(npm run build:*)",
+      "Bash(netlify status:*)",
+      "Bash(netlify sites:create:*)",
+      "Bash(netlify link:*)",
+      "Bash(netlify deploy:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
